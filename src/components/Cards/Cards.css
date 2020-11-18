@@ -1,0 +1,25 @@
+.card {
+    width: 300px;
+    height: max-content;
+    box-shadow: 0 12px 12px -6px grey;
+    border-radius: 5px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: 1px solid #e1b34f;
+    padding: 10px;
+}
+
+.card:hover {
+    box-shadow: 10px 12px 12px -6px #e1b34f;
+}
+
+.active-card {
+    width: 300px;
+    height: max-content;
+    box-shadow: 0 12px 12px -6px grey;
+    border-radius: 5px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: 2px solid #df6dff;
+    padding: 10px;
+}
